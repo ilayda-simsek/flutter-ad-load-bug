@@ -1,6 +1,6 @@
 # google_mobile_ads ad load time issue
 
-This project is a simplified version of our implementation. 
+This project is a simplified version of our implementation. The bug here is only observed on Android. (Tested with Xiomi Redmi Note 8 - Android 10)
 
 In our project we have an adhesion ad that sticks to the top of the screen as user scrolls. This ad refreshes every 20 seconds. There are also banner ads inside the body. They are all loaded using Google Ad Manager.
 
